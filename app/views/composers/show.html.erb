@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>First name:</b>
+  <%= @composer.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @composer.last_name %>
+</p>
+
+<p>
+  <b>Date born:</b>
+  <%= @composer.date_born %>
+</p>
+
+<p>
+  <b>Date death:</b>
+  <%= @composer.date_death %>
+</p>
+
+
+<%= link_to 'Edit', edit_composer_path(@composer) %> |
+<%= link_to 'Back', composers_path %>
